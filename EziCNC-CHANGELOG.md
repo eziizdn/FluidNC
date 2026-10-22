@@ -43,7 +43,6 @@ WebUI mengirim `$SS` lalu mencari baris log yang diawali `[MSG:INFO: <nama merek
 
 ### Belum diuji di board
 
-- Hostname `esp32-cnc` (perubahan kode ada, hasil di board belum dikonfirmasi).
 - Nama Bluetooth `ESP32 CNC` (hanya berlaku untuk build `bt`, belum dibangun).
 
 ## Riwayat sebelumnya
