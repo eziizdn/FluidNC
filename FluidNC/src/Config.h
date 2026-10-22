@@ -8,6 +8,9 @@
 #include "Types.h"
 #include "Platform.h"
 
+// Nama merek firmware (harus sama dengan nama yang dicari WebUI)
+#define FW_BRAND "ESP32 CNC"
+
 // This file contains compile-time configuration choices.  Most users will not need
 // to directly modify these, but they are here for unusual needs, i.e.
 // performance tuning or adjusting to non-typical machines.
