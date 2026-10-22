@@ -40,6 +40,7 @@ WebUI mengirim `$SS` lalu mencari baris log yang diawali `[MSG:INFO: <nama merek
 - Upload ke ESP32 (COM12): log boot menampilkan `Grbl 0.0 [ESP32 CNC v0.0.0-baseline (ezi-rebrand-39e63b01) (esp32-wifi) ...]`, dan WiFi access point tampil sebagai `CNC ESP32`.
 - WebUI di `http://192.168.0.1`: judul `ESP32 CNC`, dan kotak "Config File Error" muncul karena board belum punya `config.yaml` (bukti nama di WebUI cocok dengan firmware).
 - Pesan `Cannot open configuration file: config.yaml` dan `Configuration is invalid` pada board baru adalah perilaku normal FluidNC sebelum ada file konfigurasi mesin.
+- Hostname: perintah `$Hostname` di serial monitor menampilkan `esp32-cnc`.
 
 ### Belum diuji di board
 
