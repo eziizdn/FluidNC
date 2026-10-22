@@ -15,7 +15,7 @@
 
 #    include <BluetoothSerial.h>
 
-const char* const DEFAULT_BT_NAME = "EziCNC";
+const char* const DEFAULT_BT_NAME = "ESP32 CNC";
 
 namespace WebUI {
     extern BluetoothSerial SerialBT;
