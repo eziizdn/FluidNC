@@ -13,7 +13,7 @@ Rebranding tahap pertama: identitas firmware diubah dari FluidNC menjadi EziCNC.
 | `platformio.ini` | Menambah `-DFW_BRAND=\"EziCNC\"` di `[env:wifi]` | Menentukan nama merek firmware saat kompilasi |
 | `FluidNC/src/Main.cpp` | Baris log boot memakai macro `FW_BRAND` (sebelumnya tertulis sebagai teks `"FW_BRAND "`) | Pesan boot sebelumnya menampilkan kata `FW_BRAND` secara harfiah, bukan nama merek |
 | `FluidNC/src/SettingsDefinitions.cpp` | Pesan startup (`Start/Message`) memakai `FW_BRAND` | Baris `Grbl 0.0 [EziCNC ...]` menampilkan nama baru |
-| `FluidNC/src/WebUI/WifiConfig.cpp` | Nama default WiFi access point diganti ke `EziCNC` | Nama WiFi yang terlihat pengguna |
+| `FluidNC/src/WebUI/WifiConfig.cpp` | Nama default WiFi access point diganti ke `CNC ESP32` | Nama WiFi yang terlihat pengguna |
 | `FluidNC/src/WebUI/NetSettings.cpp` | Hostname default diganti ke `ezicnc` | Nama perangkat di jaringan |
 | `FluidNC/src/BTConfig.h` | Nama Bluetooth default diganti ke `EziCNC` | Nama perangkat Bluetooth (berlaku untuk build `bt`) |
 

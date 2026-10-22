@@ -9,7 +9,7 @@ Repositori ini: https://github.com/eziizdn/FluidNC (branch `ezi-rebrand`)
 | Bagian | FluidNC asli | EziCNC |
 |---|---|---|
 | Nama firmware (versi dan pesan boot) | FluidNC | EziCNC |
-| Nama WiFi access point bawaan | FluidNC | EziCNC |
+| Nama WiFi access point bawaan | FluidNC | CNC ESP32 |
 | Hostname bawaan | fluidnc | ezicnc |
 | Nama Bluetooth bawaan | FluidNC | EziCNC |
 
