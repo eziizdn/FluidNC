@@ -52,7 +52,7 @@ void setup() {
 
         make_coordinates();
 
-        log_info("FluidNC " << git_info << " " << git_url);
+        log_info("FW_BRAND " << git_info << " " << git_url);
 
         if (localfs_mount()) {
             log_info("Local filesystem is " << LocalFS.prefix);
