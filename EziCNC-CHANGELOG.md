@@ -27,6 +27,7 @@ WebUI mengirim `$SS` lalu mencari baris log yang diawali `[MSG:INFO: <nama merek
 
 - `platformio.ini`: satu baris komentar duplikat (`;WiFi=...#canWrite`) di `wifi_deps` dihapus. Tidak memengaruhi build.
 - `lib/AsyncTCP`, `lib/ESPAsyncWebServer`, `lib/JsonStreamingParser`: disalin ke folder `lib/` (commit `31cf0828`). Di `lib/ESPAsyncWebServer/library.json`, blok `"dependencies"` dihapus supaya PlatformIO memakai salinan lokal. File ini dimodifikasi dari aslinya (LGPL-3.0).
+- `TMCStepper`: dikunci ke versi 0.7.3 (`TMCStepper@0.7.3` di `lib_deps` pada `platformio.ini`) agar build tidak berubah saat ada rilis baru. Library ini masih diunduh dari registry PlatformIO dan tidak disalin ke `lib/`.
 
 ### Sengaja tidak diubah
 
